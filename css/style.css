@@ -1,0 +1,656 @@
+/* start global */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 250px;
+}
+h1,h2,h3,h4{
+    letter-spacing: 2px;
+}
+p{
+    color: #3d3d3d;
+    line-height: 1.5;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    p
+    {
+        font-size: 12px !important
+    }
+}
+
+/* end global */
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* start header */
+
+header
+{
+    background-image: url("../images/Header\ Background.jpg");
+    background-size: cover;
+    height: 405px;
+    width: 100%;
+}
+header nav
+{
+    padding: 20px 40px;
+    height: 55px;
+    line-height: 50px;
+    overflow: hidden;
+    margin-bottom: 53px;
+}
+header nav .logo
+{
+    float: left;
+    cursor: pointer
+}
+header nav .logo img
+{
+    width: 150px;
+    height: 35px;
+}
+header nav .links ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+}
+header nav .links ul li
+{
+    margin-right: 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+header nav .links ul li:hover
+{
+    color: #0072a8;
+}
+header .header-body
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+header .header-body .food-dog img
+{
+    transform: translateY(60px);
+}
+header .header-body .food-dog img
+{
+    width: 300px;
+}
+header .header-body .info-food h2
+{
+    font-family:'Amatic SC', cursive;
+    color: #452a31;
+    text-align: start;
+    margin-left: 110px;
+}
+header .header-body .info-food .pet-food
+{
+    transform: translate(35px, 60px) rotate(-12deg);
+    position: absolute;
+    font-size: 37px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0072a8;
+    letter-spacing: 2px;
+    font-family:'Amatic SC', cursive;
+    font-weight: bold;
+}
+header .header-body .info-food .design1
+{
+    transform: rotateZ(-30deg)
+}
+header .header-body .info-food .design2
+{
+    transform: translate(14px, -177px);
+    width: 315px;
+   
+}
+header .header-body .my-dog img
+{
+    width: 300px;
+
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+    header
+    {
+        height: 305px;
+    }
+    header nav .links ul li 
+    {
+        margin-right: 20px;
+    }
+    header .header-body .info-food h2
+    {
+        font-size: 14px;
+        margin-left: 50px;
+    }
+    header .header-body .info-food .design1
+    {
+        width: 170px;
+    }
+    header .header-body .info-food .design2
+    {
+        transform: translate(8px, -124px);
+        width: 220px;
+    }
+    header .header-body .my-dog img
+    {
+        width: 200px;
+    }
+    header .header-body .info-food .pet-food
+    {
+        font-size: 24px !important;
+        transform: translate(22px, 45px) rotate(-12deg);
+    }
+    header .header-body .food-dog img
+    {
+        width: 240px;
+        transform: translateY(11px);
+    }
+}
+
+/* end header */
+
+/* start section our story */
+
+.our-story
+{
+    display: flex;
+    padding-top: 75px;
+    height: 350px;
+}
+.our-story .dog-story
+{
+    padding-top: 20px;
+}
+.our-story .dog-story h1
+{
+    font-size: 30px;
+    margin-left: 120px;
+    float: right;
+    color: #452a31;
+}
+.our-story .story-info
+{
+    padding: 20px 50px;
+}
+.our-story .story-info p
+{
+    color: #3d3d3d;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.our-story .story-info span
+{
+    text-transform: uppercase;
+    color: #0072a8;
+    font-size: 12px;
+    font-weight: bold;
+}
+.our-story h1 span
+{
+    font-size: 60px;
+    color: #2ea2d0;
+}
+.our-story .dog-story img
+{
+    width: 260px;
+    height: 335px;
+    position: relative;
+    z-index: 2;
+    top: -155px
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .our-story
+    {
+        height: 260px;
+    }
+    .our-story .dog-story h1
+    {
+        font-size: 18px;
+    }
+    .our-story .dog-story h1 span
+    {
+        font-size: 45px;
+    }
+    .our-story .dog-story img
+    {
+        width: 235px;
+        height: 300px;
+        top: -130px;
+    }
+    .our-story .story-info
+    {
+        padding: 10px 0 10px 50px;
+    }
+    .our-story .story-info p
+    {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .our-story .story-info
+    {
+        font-size: 10px;
+    }
+    .our-story div:last-child img
+    {
+        width: 200px;
+    }
+
+}
+
+/* end section our story */
+
+/* start section real chicken */
+
+.chicken
+{
+    background: url("../images/CHicken.png") center center;
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    position: relative
+}
+.chicken .my-chicken
+{
+    width: 74%;
+    margin: auto;
+    padding: 50px 20px;
+
+}
+.chicken .my-chicken h4
+{
+    font-family:'Amatic SC', cursive;
+    font-size: 28px;
+    word-spacing: 0.3em;
+    margin-bottom: 25px;
+}
+.chicken .my-chicken p
+{
+    color: #fff
+}
+.chicken h4 span
+{
+    font-size: 35px;
+}
+.chicken img
+{
+    position: absolute;
+    z-index: 2;
+    left: 40px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+
+}
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    .chicken img
+    {
+        left: 40px;
+        top: 40px;
+        width: 90px;
+        height: 90px;
+    }
+    .chicken .my-chicken h4
+    {
+        font-size: 20px;
+    }
+    .chicken .my-chicken h4 span
+    {
+        font-size: 25px;
+    }
+    .chicken .my-chicken
+    {
+        font-size: 12px
+    }
+}
+
+/* end section real chicken */
+/* start section dog-life */
+
+.dog-life
+{
+    display: flex;
+    padding: 50px 80px 50px 120px;
+    margin-bottom: 70px;
+}
+.dog-life .perfect-life
+{
+    width: 60%;
+    padding-top: 50px;
+}
+.dog-life .perfect-life h3
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #452a31;
+}
+.dog-life .perfect-life button 
+{
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #2ea2d0;
+    text-transform: uppercase;
+    margin-top: 40px;
+    border: none;
+    color: #fff;
+}
+.dog-life div img:last-child
+{
+    width: 50px;
+    height: 100px;
+    transform: translate(-45px, -195px);
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .dog-life
+    {
+        padding: 40px 60px 0 100px;
+        margin-bottom: 20px;
+    }
+    .dog-life img:first-child
+    {
+        width: 200px;
+    }
+    .dog-life div img:last-child
+    {
+        transform: translate(170px, -250px);
+    }
+    .dog-life .perfect-life h3
+    {
+        font-size: 25px
+    }    
+}
+
+/* end section dog-life */
+/* start section the dogs breeds */
+
+.dogs-breeds
+{
+    background-color: #f0f0f0;
+    display: flex;
+    padding: 70px 60px 0;
+    height: 300px;
+}
+
+.dogs-breeds div
+{
+    width: 33.3333%;
+}
+.dogs-breeds div:first-child h3
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.dogs-breeds div:first-child form input[type="search"]
+{
+    width: 260px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #7f7f7f;
+    background-color: transparent;
+    font-size: 18px;
+    outline: none;
+    position: relative;
+}
+.dogs-breeds div:first-child form::before
+{
+    font-family: "Font Awesome 5 free";
+    content: "\f002";
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    left: 88%;
+    color: #888;
+}
+.dogs-breeds div:first-child form input[type="button"]
+{
+    width: 220px;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #2ea2d0;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.dogs-breeds div:nth-child(2) img
+{
+    transform: translate(30%, -32%);
+    width: 200px;
+}
+.dogs-breeds div:last-child h3
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.dogs-breeds div:last-child p
+{
+    font-size: 16px;
+    color: #959595;
+}
+.dogs-breeds div:last-child button
+{
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #2ea2d0;
+    text-transform: uppercase;
+    margin-top: 40px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    .dogs-breeds
+    {
+        height: 230px;
+        padding: 50px 60px 0;
+    }
+    .dogs-breeds div:nth-child(2) img
+    {
+        width: 150px;
+        transform: translate(30%, -30%);
+    }
+    .dogs-breeds h3
+    {
+        font-size: 19px !important;
+        margin-bottom: 0 !important
+    }
+    .dogs-breeds div:first-child form input[type="search"]
+    {
+        font-size: 14px;
+        width: 200px;
+        height: 40px;
+    }
+    .dogs-breeds div:first-child form::before 
+    {
+        top: 34px;
+        left: 84%;
+        font-size: 18px;
+    }
+    .dogs-breeds div:first-child form input[type="button"]
+    {
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .dogs-breeds div:last-child button
+    {
+        font-size: 10px;
+        width: 110px;
+        height: 30px;
+        margin-top: 45px;
+    }
+}
+
+/* end section the dogs breeds */
+/* start section right food */
+
+.right-food
+{
+    margin: 50px 50px 0;
+    padding: 50px 50px 0;
+    overflow: hidden;
+}
+.right-food .food-for-dogs
+{
+    float: left;
+    width: 33.33%
+}
+.right-food .find-food
+{
+    float: left;
+    width: 66.6666%;
+    padding: 30px;
+}
+.right-food .find-food h3
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #452a31;
+    font-size: 30px;
+}
+.right-food .find-food p
+{
+    color: #3d3d3d;
+}
+.right-food .find-food button
+{
+    width: 160px;
+    height: 40px;
+    font-size: 11px;
+    padding: 10px;
+    background-color: #2ea2d0;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* end section right food */
+/* start footer */
+footer
+{
+    margin: 70px 20px 40px;
+    background: url("../images/Place Your Design Here.png") no-repeat ;
+    background-size: cover;
+    height: 383px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+footer .contact-info
+{
+    height: 100%;
+    width: 50%;
+}
+footer .contact-info div:first-child
+{
+    height: 80%;
+}
+footer .contact-info .img1
+{
+    transform:  translate(-25px, 37px) rotateZ(35deg);
+    max-width: 300px;
+}
+footer .contact-info .img2
+{
+    max-width: 150px;
+    transform: translate(-240px, -50px);
+}
+footer .contact-info div:nth-child(2)
+{
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+footer .contact-info div:nth-child(2) ul
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 245px;
+    line-height: 1.8em;
+}
+footer .contact-info div:nth-child(2) ul li
+{
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #452a31;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+footer .contact-info .social-media span
+{
+    margin-right: 60px;
+}
+footer .contact-info .social-media svg
+{
+    color: #2ea2d0;
+    margin-left: 5px;
+}
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    footer
+    {
+        height: 285px;
+    }
+    footer .contact-info .img1
+    {
+        max-width: 200px;
+       transform: translate(-20px, 37px) rotateZ(35deg)
+    }
+    footer .contact-info .img2
+    {
+        transform: translate(-204px, -37px);
+    }
+    footer .contact-info div:nth-child(2)
+    {
+        margin-top: -22px;
+        margin-bottom: 0;
+    }
+    footer .contact-info .social-media
+    {
+        font-size: 12px;
+    }
+    footer .contact-info .social-media span
+    {
+        margin-right: 30px;
+    }
+}
+
+/* end footer */
