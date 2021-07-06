@@ -164,7 +164,14 @@ header .header-body .my-dog img
         transform: translateY(11px);
     }
 }
-
+@media (min-width: 851px) and (max-width: 991px)
+{
+    header .header-body .info-food .design2
+    {
+        transform: translate(-181px, -65px);
+        width: 200px;
+    }
+}
 /* end header */
 
 /* start section our story */
@@ -383,6 +390,13 @@ header .header-body .my-dog img
     {
         font-size: 25px
     }    
+}
+@media (min-width: 813px) and (max-width: 991px)
+{
+    .dog-life div img:last-child
+    {
+        transform: translate(-37px, -160px);
+    }
 }
 
 /* end section dog-life */
